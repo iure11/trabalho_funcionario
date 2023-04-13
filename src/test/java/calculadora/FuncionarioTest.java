@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class FuncionarioTest {
 
 
-     // Esse teste verifica se um método da classe Funcionario retorna o valor esperado para um funcinario com X horas trabalhadas com o da hora em 132
+     //  Esse teste verifica se um método da classe Funcionario retorna o valor esperado para um funcinario com X horas trabalhadas com o da hora em 132
 	@Test
 	public void testCalcularPagamentoFuncionarios() {
 		Funcionario funcionario = new Funcionario("João", 40, 132.00);
